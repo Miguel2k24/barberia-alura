@@ -27,21 +27,21 @@
 
     <main id="mainContacto">
         <form action="">
-            <label for="nombreapellido">Nombre y Apellido</label>
+            <label class="formulario" for="nombreapellido">Nombre y Apellido</label>
             <input type="text" id="nombreapellido" class="input-padron" required>
 
-            <label for="correoelectronico">Correo Eletronico</label>
+            <label class="formulario" for="correoelectronico">Correo Eletronico</label>
             <input type="email" id="correoelectronico" class="input-padron" required placeholder="ejemplo@dominio.com">
 
-            <label for="telefono">Telefono</label>
+            <label class="formulario" for="telefono">Telefono</label>
             <input type="tel" id="telefono" class="input-padron" required placeholder="(xxx)-xxx-xxxx">
 
-            <label for="mensaje">Mensaje</label>
+            <label class="formulario" for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="70" rows="10"></textarea required>
 
             <fieldset>
             
-                <legend>¿Como le gustaria que lo contactemos?</legend>
+                <legend class="contactos">¿Como le gustaria que lo contactemos?</legend>
 
                 <label for="radio-email"><input type="radio" name="contacto" id="radio-email" value="email">Email</label>
                 
@@ -55,8 +55,8 @@
             </fieldset>
 
             <fieldset>
-                <legend>¿En cual horario prefiere ser atendido?</legend>
-                <select>
+                <legend class="contactos">¿En cual horario prefiere ser atendido?</legend>
+                <select class="selector-option">
                     <option>Mañana</option>
                     <option>Tarde</option>
                     <option>Noche</option>
@@ -70,7 +70,7 @@
             <input type="submit" value="Enviar formulario" class="enviar">
         </form>
 
-        <table>
+        <table class="tabla-horario">
 
             <thead>
                 <!--esto es el cuerpo de nuestra tabla.. se define con (thead)-->

@@ -276,6 +276,11 @@ main{
     margin: 1em auto;
 }
 
+
+
+/*Ajuste para del HOME para dispositivos celulares o tablet*/
+
+
 @media screen and (max-width:480px){
     .caja h1{
         text-align: center;
@@ -298,5 +303,49 @@ main{
     .lista-diferenciales,.imagen-diferenciales{
         width: 100%;
     }
-    
+
+/* Ajuste para del (Productos) para dispositivos celulares o tablet*/
+
+    .productos li{
+        width: 25%;
+        display: block;
+        margin: 0 0 20px;
+    }
+
+    .img-producto{
+        width: 100%;
+    }
+
+
+/* Ajuste para del (Contacto) para dispositivos celulares o tablet*/
+
+    .input-padron,#mensaje{
+        width: 280px;
+        margin: 0 0 5px 10px;
+    }
+
+
+    .formulario,#radio-email,#radio-telefono,#radio-whatsapp,
+    .selector-option,.contactos,.checkbox{
+        margin-left: 10px;
+    }
+
+
+    .contactos,.checkbox{
+        font-size: 13px;
+    }
+
+    .enviar{
+        width: 280px;
+        margin-left: 50px;
+    }
+
+
+    .tabla-horario{
+        margin-left: 80px;
+    }
+
+
+
+
 }
